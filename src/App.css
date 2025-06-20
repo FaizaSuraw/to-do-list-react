@@ -1,0 +1,70 @@
+/* Title Styling */
+h1 {
+  font-family: cursive;
+  font-size: 2.5rem;
+  color: #1c3f4d;
+  text-align: center;
+  margin-top: 2rem;
+  letter-spacing: 2px;
+}
+
+/* Main Container for Form and Tasks */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 600px;
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Input Fields */
+.input-form {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5rem 0;
+  border: 2px solid red;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Submit Button */
+button {
+  padding: 10px 20px;
+  margin-top: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+/* Task Display */
+.task-list {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* Individual Task Styling */
+.container {
+  background-color: #eaf6f6;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #333;
+}
